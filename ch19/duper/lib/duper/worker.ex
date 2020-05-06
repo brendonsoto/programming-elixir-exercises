@@ -1,4 +1,4 @@
-Defmodule Duper.Worker do
+defmodule Duper.Worker do
   use GenServer, restart: :transient
 
   def start_link(_) do
